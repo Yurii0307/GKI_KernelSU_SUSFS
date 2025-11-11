@@ -98,7 +98,7 @@ jobs:
                 "kernelsu_variant": "SukiSU",
                 "kernelsu_branch": "Dev(开发)",
                 "kernels_to_build": "all",
-                "version": "-Orange-1337",
+                "version": "-GKI-Yuri",
                 "use_zram": "true",
                 "use_kpm": "true",
                 "use_O2": "true",
