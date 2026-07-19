@@ -474,12 +474,12 @@ jobs:
             "SukiSU")
               echo "添加 ${{ inputs.ksu_variant }}..."
               curl -LSs "https://raw.githubusercontent.com/SukiSU-Ultra/SukiSU-Ultra/main/kernel/setup.sh" | bash $BRANCH
-              find . -name "Kbuild" -exec sed -i -E 's/REPO_NAME\s*:=\s*.*/REPO_NAME := ATZ-Shippy/g' {} +
+              find . -name "Kbuild" -exec sed -i -E 's/REPO_NAME\s*:=\s*.*/REPO_NAME := Yurii0307/g' {} +
               ;;
             "ReSukiSU")
               echo "添加 ReSukiSU..."
               curl -LSs "https://raw.githubusercontent.com/ReSukiSU/ReSukiSU/main/kernel/setup.sh" | bash $BRANCH
-              find . -name "Kbuild" -exec sed -i -E 's/REPO_NAME\s*:=\s*.*/REPO_NAME := ATZ-Shippy/g' {} +
+              find . -name "Kbuild" -exec sed -i -E 's/REPO_NAME\s*:=\s*.*/REPO_NAME := Yurii0307/g' {} +
               ;;
             *)
               if [ -z "$LEGACY_SUKISU_CONFIG" ]; then
